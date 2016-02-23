@@ -19,6 +19,10 @@ h1, h2 {
   color: #ff8800 !important;
 }
 
+.carousel a {
+  color: #cccccc !important;
+}
+
 @font-face { 
   font-family: FontPiratenkleiderDefault;     
   src: local(DroidSans), 
