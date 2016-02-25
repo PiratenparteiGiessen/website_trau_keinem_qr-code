@@ -5,7 +5,8 @@
 body {
   padding-bottom: 40px;
   color: #5a5a5a;
-  font-family: FontPiratenkleiderDefault; 
+  font-family: FontPiratenkleiderDefault;
+  position: relative;
 }
 h1, h2 {
   font-family: FontPiratenkleiderHeadlines; 
