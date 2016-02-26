@@ -433,6 +433,13 @@
 				$("#myContent").removeClass("container");
 				$("#myContent").css("margin-right", "15px");
 				debug.log($("#myContent"));
+
+				$('a').each(function() {
+					$(this).attr("target", "_top");
+				});
+
+				$("hr:last").css("display", "none");
+				$("footer").css("display", "none");
 			}
 		});
 	</script>
