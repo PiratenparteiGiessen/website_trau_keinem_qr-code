@@ -435,7 +435,10 @@
 				debug.log($("#myContent"));
 
 				$('a').each(function() {
-					$(this).attr("target", "_top");
+					if (this.href.match("www.piraten-giessen.de/content/"))
+						$(this).attr("target", "_top");
+					else if (this.href != "#")
+						$(this).attr("target", "_blank");
 				});
 
 				$("hr:last").css("display", "none");
