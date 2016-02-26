@@ -418,16 +418,16 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-	<script src="js/ba-debug.min.js"></script>
+    <script src="js/ba-debug.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
-	<script type="javascript">
+	<script type="text/javascript">
 		$(document).ready(function() {
-		debug.log(window.self);
-		debug.log(window.top);
+			debug.log(window.self);
+			debug.log(window.top);
 			if (window.self !== window.top) {
 				debug.log($("#myContent"));
 				$("#myContent").removeClass("container");
