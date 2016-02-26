@@ -152,10 +152,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <!--
-    <div class="container marketing">
-    -->
-    <div class="marketing" style="margin-right: 15px">
+    <div id="myContent" class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div id="plakate" class="row">
@@ -421,10 +418,23 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="js/jquery-2.2.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+	<script src="js/ba-debug.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
+	<script type="javascript">
+		$(document).ready(function() {
+		debug.log(window.self);
+		debug.log(window.top);
+			if (window.self !== window.top) {
+				debug.log($("#myContent"));
+				$("#myContent").removeClass("container");
+				$("#myContent").css("margin-right", "15px");
+				debug.log($("#myContent"));
+			}
+		});
+	</script>
   </body>
 </html>
