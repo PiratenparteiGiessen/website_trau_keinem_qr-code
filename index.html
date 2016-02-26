@@ -438,7 +438,7 @@
 					debug.log(this.href);
 					if (this.href.match("www.piraten-giessen.de/content/"))
 						$(this).attr("target", "_top");
-					else if (this.href != "#")
+					else if (!this.href.match("www.trau-keinem-qr-code.de/#"))
 						$(this).attr("target", "_blank");
 				});
 
