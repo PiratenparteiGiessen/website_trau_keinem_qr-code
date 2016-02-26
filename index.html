@@ -152,10 +152,7 @@
     ================================================== -->
     <!-- Wrap the rest of the page in another container to center all the content. -->
 
-    <!--
-    <div class="container marketing">
-    -->
-    <div class="marketing" style="margin-right: 15px">
+    <div id="myContent" class="container marketing">
 
       <!-- Three columns of text below the carousel -->
       <div id="plakate" class="row">
@@ -426,5 +423,13 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
 
+	<script type="javascript">
+		$(document).ready(function() {
+			if (window.self !== window.top) {
+				$("#myContent").removeClass("container");
+				$("#myContent").css("margin-right", "15px");
+			}
+		});
+	</script>
   </body>
 </html>
