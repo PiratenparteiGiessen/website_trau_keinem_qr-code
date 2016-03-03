@@ -62,11 +62,25 @@
                                     "spd"           =>  "Wir haben - gemeinsam mit der Gießener Polizei - ein Konzept für mehr Sicherheit in der Innenstadt erarbeitet, das aus verstärktem Polizeieinsatz durch die ,mobile Wache', stärkerer Zusammenarbeit mit der städtischen Ordnungspolizei, Wiedereinführung des freiwilligen Polizeidienstes und Verstärkung der Straßensozialarbeit besteht. Das wird umgesetzt.",
                                     "gruene"        =>  "Wir wollen den Schutz vor Belästigung und Pöbeleien verbessern. Dafür benötigt es sozialarbeiterische und ordnungsrechtliche Maßnahmen. Wir wollen die Straßensozialarbeit erweitern. Die Möglichkeiten des Ordnungsamtes sind verbessert worden, der freiwillige Polizeidienst wird wieder eingeführt.",
                                     "fw"            =>  "Ausbau der Videoüberwachung auf öffentlichen Plätzen, sowie Verbesserung der Ausleuchtung. Freiwilliger Polizeidienst auch in den Stadtteilen. Konsequente Anwendung der Gefahrenabwehrverordnung, ggf. neu überarbeiten um neuen Anforderungen gerecht zu werden. Drastische Erhöhung der Ordnungsstrafen für illegale Müllentsorgung.",
-                                    "fdp"           =>  "Wir lehnen ein Alkoholverbot an sogenannten „Brennpunkten\" ab. Dennoch erkennen wir die Problematik und nehmen sie ernst. Um dem etwas entgegensetzen zu können, müssen bestehende Gesetze und Regelungen, insbesondere die Gefahrenabwehrverordnung, durch Polizei und Präsenz des Ordnungsamtes durchgesetzt werden.",
+                                    "fdp"           =>  "Wir lehnen ein Alkoholverbot an sogenannten „Brennpunkten” ab. Dennoch erkennen wir die Problematik und nehmen sie ernst. Um dem etwas entgegensetzen zu können, müssen bestehende Gesetze und Regelungen, insbesondere die Gefahrenabwehrverordnung, durch Polizei und Präsenz des Ordnungsamtes durchgesetzt werden.",
                                     "linke"         =>  "Wir lehnen den symbolischen freiwilligen Polizeidienst ab. Verdrängung der sog. Trinkerszene in andere Stadtteile bringt nicht mehr Sicherheit, sondern verlagert das Problem nur. Wir setzen uns für mehr aufsuchende Sozialarbeit ein. Suchtkranke Menschen brauchen Hilfe und keine Law and Order Politik.",
                                     "buergerliste"  =>  "Wir lehnen die Wiedereinführung des freiwilligen Polizeidienstes ab. Dieser kann das sogenannte subjektive Sicherheitsgefühl bei Weitem nicht abdecken.Wir fordern die Erhöhung der Stellen für die aufsuchende Sozialarbeit und die Stellenbesetzung der örtlichen Polizeikräfte. Weiterhin wäre es sinnvoll, geeignete Wärmestuben einzurichten.",
-                                    "piraten"       =>  "Wir lehnen Maßnahmen zum Ausbau der gefühlten Sicherheit (Videokameras, freiwilliger Polizeihilfsdienst) ab. Eingreifen kann nur echte, im Umgang mit Grundrechten ausgebildete Polizei. Die Situation am Marktplatz lässt sich nur mit der Szene zusammen zum Wohle aller lösen.",
-                                    "afd"           =>  "Anlaufstelle für die „Marktplatzszene\" schaffen, um den Marktplatz ruhiger zu machen. Vermehrte Bestreitung durch die Polizei und Ordnungsamt. Videoüberwachung an Brennpunkten in der Stadt. Anlagen und Parks besser ausleuchten.",
+                                    "piraten"       =>  "Wir lehnen Maßnahmen zum Ausbau der gefühlten Sicherheit (Videokameras, freiwilliger Polizeihilfsdienst) ab. Eingreifen kann nur echte, im Umgang mit Grundrechten ausgebildete Polizei. Die Situation am Marktplatz lässt sich nur mit der Szene zusammen zum Wohle aller lösen. Für Wahlplakats-Obergrenzen.",
+                                    "afd"           =>  "Anlaufstelle für die „Marktplatzszene” schaffen, um den Marktplatz ruhiger zu machen. Vermehrte Bestreitung durch die Polizei und Ordnungsamt. Videoüberwachung an Brennpunkten in der Stadt. Anlagen und Parks besser ausleuchten.",
+                    ),
+                ),
+                array(
+                    "thema"     => "Verkehr",
+                    "antworten" => array(
+                                    "cdu"           =>  "Rücknahme überflüssiger Tempo-30-Regelungen, um den Verkehrsfluss zu optimieren. Gleichbehandlung allerVerkehrsteilnehmer. Sanierung von Konrad-Adenauer-Brücke und historischer Sandsteintreppe. Erhalt der Rathenaustraße als Verbindungsstraße. Verbesserte Ampelschaltung.",
+                                    "spd"           =>  "Wir wollen den Öffentlichen Personennahverkehr als öffentliche Einrichtung erhalten und seine Leistungsfähigkeit verbessern, wir wollen eine gerechte Verkehrspolitik für alle Verkehrsteilnehmer, auch für Fußgänger und Radfahrer.",
+                                    "gruene"        =>  "Der Autoverkehr ist hauptverantwortlich für den Lärm und die Abgase in der Stadt. Deshalb hat für uns der umweltfreundliche Verkehr (Fußgänger, Radfahrer, Busse und Bahnen) Vorrang. Im Stadtgebiet sollte in Wohngebieten Tempo 30 als Regel eingeführt werden, mit Ausnahme der Hauptverkehrsstraßen.",
+                                    "fw"            =>  "Neukonzeption des öffentlichen Nahverkehrs insbesondere für die Linien 1, 5 und 13. Kostenloses Parken für Elektroautos. Senkun_g der Parkgebühren um Gießen als Einkaufsstadt attraktiv zu erhalten. Keine politisch motivierte Ausdehnung der 30erZonen. Kleinere Energiesparbusse auf /in schwach frequentierten Linien/Zeiten.",
+                                    "fdp"           =>  "Wir sind für eine faire Gleichbehandlung aller Verkehrsteilnehmer, insbesondere von Fußgängern, Radfahrern, ÖPNV-Nutzern und Autofahrern. Wir befürworten Kreisverkehre an geeigneten Stellen und lehnen ein generelles Tempo-30-Limit im gesamten Stadtgebiet ab.",
+                                    "linke"         =>  "Gießen braucht ein neues Verkehrskonzept. Die Notwenigkeit einer PKW-Nutzung.muss reduziert werden. Hierfür muss der OPNV ausgebaut und attraktiver gestaltet werden. Der Nulltarif ist unser Ziel. Das Umland muss besser an die Stadt angebunden werden. Fahrradfahren muss attraktiver und sicherer werden.",
+                                    "buergerliste"  =>  "Wir stehen ein für ein umweltfreundliches Gesamtverkehrskonzept im Sinne einer klimafreundlichen Mobilität für alle Verkehrsteilnehmer. Der Nahverkehrsplan ist auf die Bedürfnisse der Bürgerschaft neu abzustimmen. Die Buslinie 1 ist in eine Nord- und Südlinie zu teilen. Der Einsatz von Gelenkbussen in den Vororten ist aufzuheben.",
+                                    "piraten"       =>  "Fahrscheinloser ÖPNV mit freiem W-Lan. Ausbau der Nachtbuslinien. Busse auf regenerativ selbsthergestellten Wasserstoff umstellen. Radfahrende und Autofahrende besser trennen. Mehr Transparenz und Bürgerbeteiligung beim Fortschreiben der Verkehrskonzepte. Intelligente Ampelschaltungen.",
+                                    "afd"           =>  "Ampeln entfernen und auf Grünen Pfeil setzen. Beim Straßenbau der Möglichkeit des Kreisverkehrs Vorrang geben. 30-km/h-Zonen vor Schulen und Kindergärten auf Tageszeit begrenzen, um Beschleunigungslärm in der Nacht zu vermeiden. Keine 30 km/h auf Hauptverkehrsstraßen. Keine Reduzierung sondern Vergünstigung von lnnenstadtparkplätzen.",
                     ),
                 ),
     );
@@ -82,8 +96,8 @@
 var quizJSON = {
     "info": {
         "name":    "Kommunalwahl 2016 Quiz Gießen",
-        "main":    "<p>Sie kennen sich in der Stadtpolitik aus?<br />Dann testen Sie Ihr Wissen in 5 Themengebieten und 9 jeweils Positionen!</p>",
-        "results": "<h5>Mehr erfahren</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p><a class=\"button tryAgain\" href=\".\">Nochmal?</a>",
+        "main":    "<p>Sie kennen sich in der Stadtpolitik aus?<br />Dann testen Sie Ihr Wissen in 5 Themengebieten und 9 jeweils Positionen!</p><p style=\"font-style: italic;\">(Basiert auf der Übersicht des Gießener Anzeigers: DIE WICHTIGSTEN THEMEN AUF EINEN BLICK)</p>",
+        "results": "<h5>Mehr erfahren</h5><p><ul class=\"answers\" style=\"display: block;\"><li><a href=\"http://www.cdu-stadt-giessen.de/\">CDU Gießen</a></li><li><a href=\"http://www.stadtverband-giessen.de/\">SPD Gießen</a></li><li><a href=\"http://stadt.gruene-giessen.de/\"></a></li> <li><a href=\"http://www.fw-giessen.de/\">Freie Wähler Gießen</a></li> <li><a href=\"http://fdp-giessen.net/\">FDP Gießen</a></li> <li><a href=\"http://linke-giessen.de/\">Gießener Linke</a></li> <li><a href=\"http://www.giessener-zeitung.de/giessen/beitrag/109813/wahlprogramm-buergerliste/\">Bürgerliste Gießen</a></li> <li><a href=\"http://www.trau-keinem-qr-code.de/\">Piratenpartei Gießen</a></li> <li><a href=\"http://www.kreisgiessen-alternativefuer.de/\">Alternative für Deuschland</a></li></ul></p><p><ul class=\"answers\" style=\"display: block;\"><li><a href=\"http://www.giessener-anzeiger.de/lokales/stadt-giessen/nachrichten-giessen/index.htm\">Gießener Anzeiger</a></li> <li><a href=\"http://www.giessener-allgemeine.de/Home/Stadt/Uebersicht/costart,1_regid,1_puid,1_pageid,113.html\">Gießener Allgemeine Zeitung</a></li> <li><a href=\"http://www.giessener-zeitung.de/global/themen/kommunalwahl2016/\">Gießener Zeitung</a></li> </ul> </p><a class=\"button tryAgain\" href=\".\">Nochmal?</a>",
         "level1":  "Bereit für die Kommunalwahl",
         "level2":  "Kommunalwahl Anwärter",
         "level3":  "Kommunalwahl Amateur",
@@ -100,7 +114,7 @@ var quizJSON = {
 
         $q = $quiz[$i]["antworten"][$pq];
 ?>
-            "q": "<?php echo $quiz[$i]["thema"]; ?>:<br /><?php echo $q; ?>",
+            "q": "<?php echo $quiz[$i]["thema"]; ?>:<br /><?php echo $q; ?><br /><span style=\"font-style: italic;\">(<?php echo strlen($q); ?> Zeichen)</span>",
             "a": [
 <?php
         $c = 0;
@@ -113,7 +127,7 @@ var quizJSON = {
         }
 ?>
             ],
-            "correct": "<p><span>Absolut richtig</span> Sie haben die Position korrekt erkannt.</p>",
+            "correct": "<p><span>Absolut richtig</span> Sie haben die Position korrekt erkannt: <?php echo $party[$pq]; ?></p>",
             "incorrect": "<p><span>Leider falsch</span> Dies ist die Position von: <?php echo $party[$pq]; ?></p>" // no comma here
         }
 <?php
