@@ -3,7 +3,7 @@
     <head>
         <meta content="text/html; charset=utf-8" http-equiv="content-type">
 
-        <title>Kommunalwahl 2016 Quiz Gießen</title>
+        <title>Kommunalwahl 2016 Gießen Quiz</title>
 
         <link href="css/reset.css" media="screen" rel="stylesheet" type="text/css">
         <link href="css/slickQuiz.css" media="screen" rel="stylesheet" type="text/css">
@@ -39,5 +39,6 @@
         <script src="js/slickQuiz-config.php"></script>
         <script src="js/slickQuiz.js"></script>
         <script src="js/master.js"></script>
+        <script src="js/ba-debug.min.js"></script>
     </body>
 </html>
