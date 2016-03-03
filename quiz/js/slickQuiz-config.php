@@ -41,6 +41,20 @@
                                     "afd"           =>  "Nachhaltige, ausgeglichene Finanzpolitik ist anzustreben, die immer auch eine Schuldenreduzierung beinhaltet. Neue Schulden sind zu vermeiden, oder dürfen sich nur auf langfristige Investitionen beziehen. (Schulen) Schuldentilgung muss beschleunigt werden. Keine Subventionierung der Energiewende oder von ideologischen, defizitären Projekten.",
                     ),
                 ),
+            array(
+                    "thema"     => "Flüchtlinge",
+                    "antworten" => array(
+                                    "cdu"           =>  "Flüchtlingspolitik ist Bundespolitik. Die Möglichkeiten, auf kommunaler Ebene darauf Einfluss zu nehmen, sind stark begrenzt. Wir stellen uns gegen jede Art von Fremdenhass und rechtsradikaler Hetze. Wir sind dankbar für das außerordenlich große ehrenamtliche Engagement der Gießener Bürgerschaft.",
+                                    "spd"           =>  "Gießen hat die Aufnahme Tausender Flüchtlinge im letzten Jahr großartig bewältigt. Dazu haben Hunderte ehrenamtlicher Helferinnen und Helfer und eine kluge Politik der Stadt beigetragen. So soll es bleiben. Deshalb verbessern wir die Infrastruktur rund um die HEAE. Deshalb stocken wir städtisches Personal auf und stärken die ehrenamtliche Betreuung.",
+                                    "gruene"        =>  "Die Aufnahme von Flüchtlingen, die vor Krieg und Diktatur fliehen, ist humanitäre Pflicht, der wir gerne nachkommen. Aufgabe der Kommunen ist es, für die Menschen die soziale Teilhabe zu sichern, z.B. Deutschkurse für alle von Anfang an, (Nach-)Qualifizierung für Berufstätigkeit in Deutschland.",
+                                    "fw"            =>  "Tragfähige Integrationspolitik zum frühestmöglichen Zeitpunkt durch mehr Personal in Kindergärten, Schulen, Volkshochschule, sowie Unterstützung der Vereine und der ehrenamtlichen Tätigkeiten. Notwendige Finanzmittel bei Bund und Land einfordern, ggf. Schutzschirm-Verlängerung. Verpflichtung zur deutschen Sprache ab dem Kindergarten.",
+                                    "fdp"           =>  "Menschen, die vor Krieg und Verfolgung fliehen, haben unseren Schutz verdient. Dennoch zeigt die aktuelle Lage, dass die Politik von den Zahlen der aktuell kommenden Flüchtlinge überfordert ist. Die FDP hat ein Konzept entwickelt, das einen Fokus auf die Differenzierung zwischen Asyl und Einwanderung setzt und die Situation entspannen würde.",
+                                    "linke"         =>  "Wir fordern die Unterbringung von Schutzsuchenden in festen Gebäuden. Ausbau medizinischer und psychologischer Versorgung für Kriegstraumatisierte und Erkrankte. Integration von Beginn an, z.B. durch Sprachkurse. Konsequente Verfolgung von Straftaten aus Fremdenhass.",
+                                    "buergerliste"  =>  "Wir stehen ein für eine Willenkommenskultur für Flüchtlinge und Asylsuchende, die vor Krieg und Gewalt in ihren Herkunftsländern flüchten. Um eine zügige Integration umzusetzen, fordern wir die rasche Stellenbesetzung der Integrationsbeauftragten, ausreichend Deutschkurse und ein Zentrum für Integration.",
+                                    "piraten"       =>  "Generell: Kein Mensch ist illegal. Fluchtursachen global lindern. Geflüchtete auf EU-Ebene fair verteilen. Bundes-Verfahren beschleunigen. Vor Ort: dezentrale Unterbringung, Internet (z.B. Freifunk), zivilgesellschaftliche Integration, Ehrenamt stärken, multilinguale Verwaltung, anonyme Bewerbungen, etc.",
+                                    "afd"           =>  "Schaffung menschenwürdiger und sicherer Unterbringung mit Blick auf Herkunft und Religion, um Konflikte zu vermeiden. Frauenhäuser für alleinreisende Frauen und Frauen mit Kinder schaffen, um vor Übergriffen zu schützen. Schnellere Bearbeitung der Anträge. Integration fördern. Schnellere Abschiebung von abgelehnten Asylbewerbern.",
+                                ),
+            ),
     );
 
     shuffle($quiz);
@@ -55,12 +69,12 @@ var quizJSON = {
     "info": {
         "name":    "Kommunalwahl 2016 Quiz Gießen",
         "main":    "<p>Sie kennen sich in der Stadtpolitik aus?<br />Dann testen Sie Ihr Wissen in 5 Themengebieten und 9 jeweils Positionen!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "results": "<h5>Mehr erfahren</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
+        "level1":  "Bereit für die Kommunalwahl",
+        "level2":  "Kommunalwahl Anwärter",
+        "level3":  "Kommunalwahl Amateur",
+        "level4":  "Kommunalwahl Anfänger",
+        "level5":  "Ohne Glück: Sie sollten sich die Programme und Positionen besser noch mal anschauen " // no comma here
     },
     "questions": [
 <?php
