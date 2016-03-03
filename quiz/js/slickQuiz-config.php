@@ -41,6 +41,34 @@
                                     "afd"           =>  "Nachhaltige, ausgeglichene Finanzpolitik ist anzustreben, die immer auch eine Schuldenreduzierung beinhaltet. Neue Schulden sind zu vermeiden, oder dürfen sich nur auf langfristige Investitionen beziehen. (Schulen) Schuldentilgung muss beschleunigt werden. Keine Subventionierung der Energiewende oder von ideologischen, defizitären Projekten.",
                     ),
                 ),
+                array(
+                    "thema"     => "Flüchtlinge",
+                    "antworten" => array(
+                                    "cdu"           =>  "Flüchtlingspolitik ist Bundespolitik. Die Möglichkeiten, auf kommunaler Ebene darauf Einfluss zu nehmen, sind stark begrenzt. Wir stellen uns gegen jede Art von Fremdenhass und rechtsradikaler Hetze. Wir sind dankbar für das außerordenlich große ehrenamtliche Engagement der Gießener Bürgerschaft.",
+                                    "spd"           =>  "Gießen hat die Aufnahme Tausender Flüchtlinge im letzten Jahr großartig bewältigt. Dazu haben Hunderte ehrenamtlicher Helferinnen und Helfer und eine kluge Politik der Stadt beigetragen. So soll es bleiben. Deshalb verbessern wir die Infrastruktur rund um die HEAE. Deshalb stocken wir städtisches Personal auf und stärken die ehrenamtliche Betreuung.",
+                                    "gruene"        =>  "Die Aufnahme von Flüchtlingen, die vor Krieg und Diktatur fliehen, ist humanitäre Pflicht, der wir gerne nachkommen. Aufgabe der Kommunen ist es, für die Menschen die soziale Teilhabe zu sichern, z.B. Deutschkurse für alle von Anfang an, (Nach-)Qualifizierung für Berufstätigkeit in Deutschland.",
+                                    "fw"            =>  "Tragfähige Integrationspolitik zum frühestmöglichen Zeitpunkt durch mehr Personal in Kindergärten, Schulen, Volkshochschule, sowie Unterstützung der Vereine und der ehrenamtlichen Tätigkeiten. Notwendige Finanzmittel bei Bund und Land einfordern, ggf. Schutzschirm-Verlängerung. Verpflichtung zur deutschen Sprache ab dem Kindergarten.",
+                                    "fdp"           =>  "Menschen, die vor Krieg und Verfolgung fliehen, haben unseren Schutz verdient. Dennoch zeigt die aktuelle Lage, dass die Politik von den Zahlen der aktuell kommenden Flüchtlinge überfordert ist. Die FDP hat ein Konzept entwickelt, das einen Fokus auf die Differenzierung zwischen Asyl und Einwanderung setzt und die Situation entspannen würde.",
+                                    "linke"         =>  "Wir fordern die Unterbringung von Schutzsuchenden in festen Gebäuden. Ausbau medizinischer und psychologischer Versorgung für Kriegstraumatisierte und Erkrankte. Integration von Beginn an, z.B. durch Sprachkurse. Konsequente Verfolgung von Straftaten aus Fremdenhass.",
+                                    "buergerliste"  =>  "Wir stehen ein für eine Willenkommenskultur für Flüchtlinge und Asylsuchende, die vor Krieg und Gewalt in ihren Herkunftsländern flüchten. Um eine zügige Integration umzusetzen, fordern wir die rasche Stellenbesetzung der Integrationsbeauftragten, ausreichend Deutschkurse und ein Zentrum für Integration.",
+                                    "piraten"       =>  "Generell: Kein Mensch ist illegal. Fluchtursachen global lindern. Geflüchtete auf EU-Ebene fair verteilen. Bundes-Verfahren beschleunigen. Vor Ort: dezentrale Unterbringung, Internet (z.B. Freifunk), zivilgesellschaftliche Integration, Ehrenamt stärken, multilinguale Verwaltung, anonyme Bewerbungen, etc.",
+                                    "afd"           =>  "Schaffung menschenwürdiger und sicherer Unterbringung mit Blick auf Herkunft und Religion, um Konflikte zu vermeiden. Frauenhäuser für alleinreisende Frauen und Frauen mit Kinder schaffen, um vor Übergriffen zu schützen. Schnellere Bearbeitung der Anträge. Integration fördern. Schnellere Abschiebung von abgelehnten Asylbewerbern.",
+                                ),
+                ),
+                array(
+                    "thema"     => "Sicherheit in der Innenstadt",
+                    "antworten" => array(
+                                    "cdu"           =>  "Die Sicherheit der Bürgersehsaft ist uns ein Kernanliegen. Wir wollen: Sofortige Einführung des Freiwilligen Polizeidienstes, Videoschutz am Marktplatz, personelle Verstärkung von Ordnungsamt/Ordnungspolizei, Anwendung der Gefahrenabwehrverordnung, Busbegleiter u. bessere Straßenbeleuchtung.",
+                                    "spd"           =>  "Wir haben - gemeinsam mit der Gießener Polizei - ein Konzept für mehr Sicherheit in der Innenstadt erarbeitet, das aus verstärktem Polizeieinsatz durch die ,mobile Wache', stärkerer Zusammenarbeit mit der städtischen Ordnungspolizei, Wiedereinführung des freiwilligen Polizeidienstes und Verstärkung der Straßensozialarbeit besteht. Das wird umgesetzt.",
+                                    "gruene"        =>  "Wir wollen den Schutz vor Belästigung und Pöbeleien verbessern. Dafür benötigt es sozialarbeiterische und ordnungsrechtliche Maßnahmen. Wir wollen die Straßensozialarbeit erweitern. Die Möglichkeiten des Ordnungsamtes sind verbessert worden, der freiwillige Polizeidienst wird wieder eingeführt.",
+                                    "fw"            =>  "Ausbau der Videoüberwachung auf öffentlichen Plätzen, sowie Verbesserung der Ausleuchtung. Freiwilliger Polizeidienst auch in den Stadtteilen. Konsequente Anwendung der Gefahrenabwehrverordnung, ggf. neu überarbeiten um neuen Anforderungen gerecht zu werden. Drastische Erhöhung der Ordnungsstrafen für illegale Müllentsorgung.",
+                                    "fdp"           =>  "Wir lehnen ein Alkoholverbot an sogenannten „Brennpunkten\" ab. Dennoch erkennen wir die Problematik und nehmen sie ernst. Um dem etwas entgegensetzen zu können, müssen bestehende Gesetze und Regelungen, insbesondere die Gefahrenabwehrverordnung, durch Polizei und Präsenz des Ordnungsamtes durchgesetzt werden.",
+                                    "linke"         =>  "Wir lehnen den symbolischen freiwilligen Polizeidienst ab. Verdrängung der sog. Trinkerszene in andere Stadtteile bringt nicht mehr Sicherheit, sondern verlagert das Problem nur. Wir setzen uns für mehr aufsuchende Sozialarbeit ein. Suchtkranke Menschen brauchen Hilfe und keine Law and Order Politik.",
+                                    "buergerliste"  =>  "Wir lehnen die Wiedereinführung des freiwilligen Polizeidienstes ab. Dieser kann das sogenannte subjektive Sicherheitsgefühl bei Weitem nicht abdecken.Wir fordern die Erhöhung der Stellen für die aufsuchende Sozialarbeit und die Stellenbesetzung der örtlichen Polizeikräfte. Weiterhin wäre es sinnvoll, geeignete Wärmestuben einzurichten.",
+                                    "piraten"       =>  "Wir lehnen Maßnahmen zum Ausbau der gefühlten Sicherheit (Videokameras, freiwilliger Polizeihilfsdienst) ab. Eingreifen kann nur echte, im Umgang mit Grundrechten ausgebildete Polizei. Die Situation am Marktplatz lässt sich nur mit der Szene zusammen zum Wohle aller lösen.",
+                                    "afd"           =>  "Anlaufstelle für die „Marktplatzszene\" schaffen, um den Marktplatz ruhiger zu machen. Vermehrte Bestreitung durch die Polizei und Ordnungsamt. Videoüberwachung an Brennpunkten in der Stadt. Anlagen und Parks besser ausleuchten.",
+                    ),
+                ),
     );
 
     shuffle($quiz);
@@ -55,12 +83,12 @@ var quizJSON = {
     "info": {
         "name":    "Kommunalwahl 2016 Quiz Gießen",
         "main":    "<p>Sie kennen sich in der Stadtpolitik aus?<br />Dann testen Sie Ihr Wissen in 5 Themengebieten und 9 jeweils Positionen!</p>",
-        "results": "<h5>Learn More</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p>",
-        "level1":  "Jeopardy Ready",
-        "level2":  "Jeopardy Contender",
-        "level3":  "Jeopardy Amateur",
-        "level4":  "Jeopardy Newb",
-        "level5":  "Stay in school, kid..." // no comma here
+        "results": "<h5>Mehr erfahren</h5><p>Etiam scelerisque, nunc ac egestas consequat, odio nibh euismod nulla, eget auctor orci nibh vel nisi. Aliquam erat volutpat. Mauris vel neque sit amet nunc gravida congue sed sit amet purus.</p><a class=\"button tryAgain\" href=\".\">Nochmal?</a>",
+        "level1":  "Bereit für die Kommunalwahl",
+        "level2":  "Kommunalwahl Anwärter",
+        "level3":  "Kommunalwahl Amateur",
+        "level4":  "Kommunalwahl Anfänger",
+        "level5":  "Ohne Glück: Sie sollten sich die Programme und Positionen besser noch mal anschauen " // no comma here
     },
     "questions": [
 <?php
@@ -72,7 +100,7 @@ var quizJSON = {
 
         $q = $quiz[$i]["antworten"][$pq];
 ?>
-            "q": "<?php echo $quiz[0]["thema"]; ?>:<br /><?php echo $q; ?>",
+            "q": "<?php echo $quiz[$i]["thema"]; ?>:<br /><?php echo $q; ?>",
             "a": [
 <?php
         $c = 0;

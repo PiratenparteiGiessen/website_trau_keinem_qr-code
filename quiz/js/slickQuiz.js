@@ -25,7 +25,7 @@
                 questionCountText: 'Themengebiet %current von %total',
                 preventUnansweredText: 'You must select at least one answer.',
                 questionTemplateText:  '%count. %text',
-                scoreTemplateText: '%score / %total',
+                scoreTemplateText: '%score von %total',
                 nameTemplateText:  '<span>Quiz: </span>%name',
                 skipStartButton: false,
                 numberOfQuestions: null,
