@@ -33,6 +33,8 @@
             </div>
         </div>
 
+        <p style="margin-top: 60px; font-size: small;">&copy; 2016 Piratenpartei Gießen &middot; <a href="http://www.piraten-giessen.de/kontakt">Kontakt</a> &middot; <a href="http://www.piraten-giessen.de/impressum">Impressum</a> &middot; <a href="http://www.piraten-giessen.de/datenschutzerklaerung">Datenschutzerklärung</a></p>
+
         <script src="js/jquery.js"></script>
         <script src="js/slickQuiz-config.php"></script>
         <script src="js/slickQuiz.js"></script>
