@@ -23,7 +23,7 @@
                 completeQuizText: '',
                 tryAgainText: '',
                 questionCountText: 'Themengebiet %current von %total',
-                preventUnansweredText: 'You must select at least one answer.',
+                preventUnansweredText: 'Sie müssen eine Antwort auswählen!',
                 questionTemplateText:  '%count. %text',
                 scoreTemplateText: '%score von %total',
                 nameTemplateText:  '<span>Quiz: </span>%name',
@@ -31,12 +31,12 @@
                 numberOfQuestions: null,
                 randomSortQuestions: false,
                 randomSortAnswers: false,
-                preventUnanswered: false,
+                preventUnanswered: true,
                 disableScore: false,
                 disableRanking: false,
                 scoreAsPercentage: false,
                 perQuestionResponseMessaging: true,
-                perQuestionResponseAnswers: false,
+                perQuestionResponseAnswers: true,
                 completionResponseMessaging: false,
                 displayQuestionCount: true,   // Deprecate?
                 displayQuestionNumber: true,  // Deprecate?
@@ -456,9 +456,17 @@
                 });
 
                 if (plugin.config.preventUnanswered && selectedAnswers.length === 0) {
-                    alert(plugin.config.preventUnansweredText);
+                    //alert(plugin.config.preventUnansweredText);
+                    $.growl.error({ message: plugin.config.preventUnansweredText, location: 'tr' });
                     return false;
                 }
+
+                // Set slider
+                debug.log(questionIndex);
+                $('#bxslider_'+questionIndex).bxSlider({
+                    infiniteLoop: false,
+                    hideControlOnEnd: true
+                });
 
                 // Verify all/any true answers (and no false ones) were submitted
                 var correctResponse = plugin.method.compareAnswers(trueAnswers, selectedAnswers, selectAny);

@@ -23,7 +23,7 @@
                                     "linke"         =>  "Wir fordern ein Sofortprogramm, um mindestens 100 bezahlbare Sozialwohnungen jährlich zu schaffen, die Einführung einer verbindlichen Sozialquote von mindestens 10% bei privaten Bauprojekten und den Schutz von Mieterinnen und Mietern vor Verdrängung bei Sanierungen z.B. durch Milieuschutzklauseln.",
                                     "buergerliste"  =>  "Gießen braucht eine verantwortungsvolle Stadtentwicklung, die dafür sorgt, dass zukünftig auch ausreichend bezahlbarer neuer Wohnraum entsteht und, dass die vorhandenen Sozialwohnungen auch bezahlbar bleiben. Wir setzen uns ein für einen Masterplan, der neben den sozialen Aspekten auch die umweltverträglichen Belange mit berücksichtigt.",
                                     "piraten"       =>  "Es mangelt an Wohnraum, also wird Gießen wachsen müssen. Uns sind dabei Transparenz und Bürgerbeteiligung wichtig, um Probleme (z.B. Buslinie 13) zu vermeiden. Beim Ausbau müssen Soziales, Energetisches, Barrierefreiheit und Infrastruktur (z.B. Glasfaser, Leerrohre) stimmig sein.",
-                                    "afd"           =>  "Umsetzung des gemeinsamen Wohnraumplans mit dem Kreis . Stärkeres Engagement der Stadt. Erstellung eines Mietspiegels für Gießen ist notwendig. Demografischer Wandel des Umlandes muss durch Attraktivitätssteigerung gestoppt werden. Prüfen einer Sozialquote beim privaten Wohnungsbau zur Vermeidung von Ghettos.",
+                                    "afd"           =>  "Umsetzung des gemeinsamen Wohnraumplans mit dem Kreis. Stärkeres Engagement der Stadt. Erstellung eines Mietspiegels für Gießen ist notwendig. Demografischer Wandel des Umlandes muss durch Attraktivitätssteigerung gestoppt werden. Prüfen einer Sozialquote beim privaten Wohnungsbau zur Vermeidung von Ghettos.",
 
                     ),
                 ),
@@ -114,7 +114,7 @@ var quizJSON = {
 
         $q = $quiz[$i]["antworten"][$pq];
 ?>
-            "q": "<?php echo $quiz[$i]["thema"]; ?>:<br /><?php echo $q; ?><br /><span style=\"font-style: italic;\">(<?php echo strlen($q); ?> Zeichen)</span>",
+            "q": "<?php echo $quiz[$i]["thema"]; ?>:<br /><?php echo $q; ?><br /><span style=\"font-style: italic; font-weight: normal;\">(<?php echo strlen($q); ?> Zeichen)</span>",
             "a": [
 <?php
         $c = 0;
@@ -125,10 +125,18 @@ var quizJSON = {
 <?php
             if ($c != sizeof($party)) echo ",\n"; else echo "\n";
         }
+
+        $slider = "<br /><br />Zum Vergleich:<br /><ul class=\\\"slider\\\" id=\\\"bxslider_".$i."\\\">";
+        foreach($quiz[$i]["antworten"] as $pa => $a) {
+            if ($pa != $pq) {
+                $slider .= "<li class=\\\"".$pa."\\\"><h4>".$party[$pa].":</h4>".$a."<br /><span style=\\\"font - style: italic; font - weight: normal;\\\">(".strlen($a)." Zeichen)</span></li>";
+            }
+        }
+        $slider .= "</ul>";
 ?>
             ],
             "correct": "<p><span>Absolut richtig</span> Sie haben die Position korrekt erkannt: <?php echo $party[$pq]; ?></p>",
-            "incorrect": "<p><span>Leider falsch</span> Dies ist die Position von: <?php echo $party[$pq]; ?></p>" // no comma here
+            "incorrect": "<p><span>Leider falsch</span> Dies ist die Position von: <?php echo $party[$pq]; echo $slider; ?></p>" // no comma here
         }
 <?php
         if ($i != sizeof($quiz)) echo ","; else echo " // no comma here";

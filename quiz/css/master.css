@@ -139,3 +139,9 @@ ul.responses li.incorrect p span {
     clear: both;
     margin-top: 20px;
 }
+
+ul.slider li {
+    width: 660px !important;
+    height: 200px;
+    margin: 0 50px !important;
+}
