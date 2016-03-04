@@ -11,6 +11,17 @@
         "afd"           =>  "Alternative für Deutschland",
     );
 
+    $artikel = array(
+        "cdu"           =>  "der CDU",
+        "spd"           =>  "der SPD",
+        "gruene"        =>  "Bündnis 90 / Die Grünen",
+        "fw"            =>  "den Freie Wählern",
+        "fdp"           =>  "der FDP",
+        "linke"         =>  "der Gießener Linken",
+        "buergerliste"  =>  "der Bürgerliste Gießen",
+        "piraten"       =>  "der Piratenpartei",
+        "afd"           =>  "der Alternative für Deutschland",
+    );
 
     $quiz = array(
                 array(
@@ -136,8 +147,8 @@ var quizJSON = {
         $slider .= "</ul>";
 ?>
             ],
-            "correct": "<p><span>Absolut richtig</span> Sie haben die Position korrekt erkannt: <?php echo $party[$pq]; ?></p>",
-            "incorrect": "<p><span>Leider falsch</span> Dies ist die Position von: <?php echo $party[$pq]; echo $slider; ?></p>" // no comma here
+            "correct": "<p><span>Absolut richtig</span> Sie haben die Position von <?php echo $artikel[$pq]; ?> korrekt erkannt.</p>",
+            "incorrect": "<p><span>Leider falsch</span> Dies ist die Position von <?php echo $artikel[$pq]; ?>.<?php echo $slider; ?></p>" // no comma here
         }
 <?php
         if ($i != sizeof($quiz)) echo ","; else echo " // no comma here";
