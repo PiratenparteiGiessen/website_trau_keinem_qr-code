@@ -413,7 +413,7 @@
             },
 
             // Validates the response selection(s), displays explanations & next question button
-            checkAnswer: function(checkButton, options) {
+            checkAnswer: function(checkButton, options) {00
                 var key, keyNotch, kN;
                 key = internal.method.getKey (2); // how many notches == how many jQ animations you will run
                 keyNotch = internal.method.getKeyNotch; // a function that returns a jQ animation callback function
@@ -462,11 +462,32 @@
                 }
 
                 // Set slider
-                debug.log(questionIndex);
-                $('#bxslider_'+questionIndex).bxSlider({
+                var sliderIndex = "#bxslider_"+questionIndex;
+                var sliderAnswers = $($("ul.answers")[questionIndex]).find("span");
+                var sliderAnswer = $(sliderAnswers[selectedAnswers[0]]).attr("class");
+                /*debug.log("sliderAnswer");
+                debug.log(sliderAnswer);/**/
+                var sliderSlideIndex = 0;
+                var sliderSlides = $(sliderIndex).find("li");
+                /*debug.log("sliderSlides");
+                debug.log(sliderSlides);/**/
+                $(sliderSlides).each(function(idx, sliderSlide) {
+                    /*debug.log(idx);
+                    debug.log(sliderSlide);
+                    debug.log($(sliderSlide).attr("class"));/**/
+                    if ($(sliderSlide).attr("class") == sliderAnswer)
+                        sliderSlideIndex = idx;
+                });
+                /*debug.log("sliderSlideIndex");
+                debug.log(sliderSlideIndex);/**/
+                var slider = $(sliderIndex).bxSlider({
                     infiniteLoop: false,
                     hideControlOnEnd: true
                 });
+                setTimeout(function(){
+                    //debug.log("goto slide "+sliderSlideIndex);
+                    slider.goToSlide(sliderSlideIndex);
+                }, 200);
 
                 // Verify all/any true answers (and no false ones) were submitted
                 var correctResponse = plugin.method.compareAnswers(trueAnswers, selectedAnswers, selectAny);

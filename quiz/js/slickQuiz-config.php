@@ -11,6 +11,7 @@
         "afd"           =>  "Alternative für Deutschland",
     );
 
+
     $quiz = array(
                 array(
                     "thema"     => "Wohnraum",
@@ -121,7 +122,7 @@ var quizJSON = {
         foreach ($party as $p => $pname) {
             $c++;
 ?>
-                {"option": "<?php echo $pname; ?>",      "correct": <?php if ($p == $pq) echo "true"; else echo "false"; ?>}
+                {"option": "<span class=\"<?php echo $p; ?>\"><?php echo $pname; ?></span>",      "correct": <?php if ($p == $pq) echo "true"; else echo "false"; ?>}
 <?php
             if ($c != sizeof($party)) echo ",\n"; else echo "\n";
         }
